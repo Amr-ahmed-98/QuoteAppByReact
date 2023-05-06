@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Amr-ahmed-98/QuotesAppByReact/static/css/main.5bf9e113.css",
+    "main.js": "/Amr-ahmed-98/QuotesAppByReact/static/js/main.4d08a342.js",
+    "index.html": "/Amr-ahmed-98/QuotesAppByReact/index.html",
+    "main.5bf9e113.css.map": "/Amr-ahmed-98/QuotesAppByReact/static/css/main.5bf9e113.css.map",
+    "main.4d08a342.js.map": "/Amr-ahmed-98/QuotesAppByReact/static/js/main.4d08a342.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bf9e113.css",
+    "static/js/main.4d08a342.js"
+  ]
+}
