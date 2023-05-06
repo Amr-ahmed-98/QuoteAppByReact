@@ -1,0 +1,27 @@
+section{
+    text-align: center;
+}
+.btn{
+    width: 8rem;
+    height: 2.5rem;
+    background-color: rgba(5, 5, 5, 0.285);
+    color: aqua;
+    font-weight: bold;
+    border:none;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+    -webkit-transition:transform 0.2s ease-in-out;
+    -moz-transition:transform 0.2s ease-in-out;
+    -ms-transition:transform 0.2s ease-in-out;
+    -o-transition:transform 0.2s ease-in-out;
+}
+.btn:hover{
+    transform: translateY(3px);
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    border:1px solid;
+    -webkit-transform: translateY(3px);
+    -moz-transform: translateY(3px);
+    -ms-transform: translateY(3px);
+    -o-transform: translateY(3px);
+}

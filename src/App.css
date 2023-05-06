@@ -1,0 +1,48 @@
+body {
+  background-color: #555;
+}
+.centered {
+  width: 20rem;
+  height: 5rem;
+  background-color: black;
+  color: white;
+  margin: 5rem auto;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 5px;
+}
+
+.btnLoad {
+  display: flex;
+  justify-content: center;
+}
+
+.loadBtn {
+  text-decoration: none;
+  text-align: center;
+  width: 9rem;
+  height: 2.5rem;
+  box-sizing: border-box;
+  padding-top: 8px;
+
+  background-color: rgba(5, 5, 5, 0.285);
+  color: aqua;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s ease-in-out;
+  -webkit-transition: transform 0.5s ease-in-out;
+  -moz-transition: transform 0.5s ease-in-out;
+  -ms-transition: transform 0.5s ease-in-out;
+  -o-transition: transform 0.5s ease-in-out;
+}
+.loadBtn:hover {
+  transform: translateY(4px);
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  border: 1px solid;
+  -webkit-transform: translateY(4px);
+  -moz-transform: translateY(4px);
+  -ms-transform: translateY(4px);
+  -o-transform: translateY(4px);
+}

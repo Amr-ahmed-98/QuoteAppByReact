@@ -1,0 +1,56 @@
+.container {
+  position: relative;
+}
+.container p {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+  height: 200px;
+  margin: auto;
+  left: 50%;
+  font-weight: bold;
+  font-size: 1.4rem;
+  transform: translate(-50%, 50%);
+  background-color: aqua;
+  border-radius: 10px;
+  -webkit-transform: translate(-50%, 50%);
+  -moz-transform: translate(-50%, 50%);
+  -ms-transform: translate(-50%, 50%);
+  -o-transform: translate(-50%, 50%);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.container .btnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+.container .btnContainer .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  text-decoration: none;
+  color: beige;
+  border-radius: 10px;
+  width: 150px;
+  height: 2.5rem;
+  background-color: goldenrod;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.container .btnContainer .btn:active {
+  transform: translatey(3px);
+  -webkit-transform: translatey(3px);
+  -moz-transform: translatey(3px);
+  -ms-transform: translatey(3px);
+  -o-transform: translatey(3px);
+}

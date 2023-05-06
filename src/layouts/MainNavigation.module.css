@@ -1,0 +1,47 @@
+.header {
+    min-height: 3rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: goldenrod;
+}
+.logo {
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    left: calc(0% + 3rem);
+}
+
+.navigation{
+    position: absolute;
+    right: calc(0% + 2rem);
+}
+.navigation ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+}
+
+.navigation .navLink{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.navigation .navLink:hover{
+    color: black;
+}
+.navigation .navLink:active{
+    color: black;
+    background-color: beige;
+}
+.navigation .navLink.active{
+    color: black;
+    background-color: beige;
+}

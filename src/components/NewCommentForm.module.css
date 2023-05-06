@@ -1,0 +1,77 @@
+.txtAreaField {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.txtAreaField label {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.txtArea {
+  width: 50rem;
+  height: 5rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  overflow: hidden;
+}
+.btn {
+  width: 7.5rem;
+  height: 2.5rem;
+  background-color: transparent;
+  border: none;
+  color: aqua;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: rgba(11, 11, 11, 0.47);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+  -webkit-transition: transform 0.2s ease-in-out;
+  -moz-transition: transform 0.2s ease-in-out;
+  -ms-transition: transform 0.2s ease-in-out;
+  -o-transition: transform 0.2s ease-in-out;
+}
+.btn:hover {
+  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+  -moz-transform: translateY(4px);
+  -ms-transform: translateY(4px);
+  -o-transform: translateY(4px);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border: 1px solid aqua;
+}
+.error {
+  background-color: rgba(251, 43, 43, 0.45);
+  border: 1px solid red;
+  outline: none;
+}
+.good {
+  background-color: rgba(21, 154, 21, 0.642);
+  border: 1px solid green;
+  outline: none;
+}
+.hideBtn {
+  display: none;
+}
+.formContent {
+  position: relative;
+}
+.txt-not-true {
+  height: 1.5rem;
+  min-width: 15rem;
+  position: absolute;
+  top: calc(0% - 28px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: aqua;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}

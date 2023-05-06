@@ -1,0 +1,25 @@
+.content {
+  position: relative;
+  width: 60vh;
+  height: 10rem;
+  margin: 50px auto;
+  background-color: #f1eace;
+  text-align: center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.content p {
+  color: goldenrod;
+  font-weight: bold;
+  font-size: 2rem;
+  padding-top: 3rem;
+}
+.content figcaption {
+  position: absolute;
+  left: calc(0% + 1rem);
+  font-weight: 500;
+  color: goldenrod;
+}
